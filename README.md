@@ -1,1 +1,1 @@
-# Ciencia_de_la_computacion_1
+# Gustavo Ñaupa Canaza
