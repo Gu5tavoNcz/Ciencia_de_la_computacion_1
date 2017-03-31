@@ -2,118 +2,81 @@
 
 using namespace std;
 /*
+//INVERTIR UN ARREGLO SIN BUBLES
 int main()
 {
-    int a=0;
-    int b=0;
-    while(a<10)
-    {
-        cout << "a++ : " << a++ << endl;
-    }
+    int arreglo[4];
+    int temp;
+    cout << "Introduzca un numero en la posicion 1 del arreglo : ";
+    cin >> arreglo[0];
+    cout << "Introduzca un numero en la posicion 2 del arreglo : ";
+    cin >> arreglo[1];
+    cout << "Introduzca un numero en la posicion 3 del arreglo : ";
+    cin >> arreglo[2];
+    cout << "Introduzca un numero en la posicion 4 del arreglo : ";
+    cin >> arreglo[3];
 
-    while (b<10)
-    {
-        cout << "++b : "<< ++b <<endl;
-    }
-    cout << "Hello world!" << endl;
+    temp=arreglo[0];
+    arreglo[0]=arreglo[3];
+    arreglo[3]=temp;
+    temp=arreglo[1];
+    arreglo[1]=arreglo[2];
+    arreglo[2]=temp;
+
+    cout<<"El arreglo invertido es: " << arreglo[0]<<arreglo[1]<<arreglo[2]<<arreglo[3]<<endl;
     return 0;
 }
 */
-/*
-int main()
-{
-    int c=5;
-    int x=++c;
-    cout << c << " & " << x <<endl;
-}
-*/
-/*
-int main()
-{
-    int i,j;
-    i=j=0;
-    i=i+2;
-    j+=2;
-    cout << i << " & " << j <<endl;
-}
-*/
-/*
-int main()
-{
-    int z;
-    if (a>b)
-        z=a;
-    else
-        z=b;
 
-    z=(a>b)?a:b;
-}
-*/
-/*
 int main ()
 {
-    int a,b;
-    cout << "Ingrese un numero A : ";
-    cin >>a;
-    cout << "Ingrese un numero B : ";
-    cin >> b;
-    cout << "El numero mayor es : "<< ((a>b)?a:b) << endl;
-}
-*/
-/*
-int main ()
-{
-    int arreglo[5];
-    int i=0;
-    while(i<5)
+    int tam;
+    cout << "Introduzca el tamaño del arreglo : ";
+        cin >> tam;
+    int arreglo[tam];
+    int cont=0;
+    int temp;
+    while (cont<tam)
     {
-        cout<<"Ingrese el valor de la posicion "<<i+1<<": ";
-        cin>>arreglo[i];
-        i++;
+        cout << "Introduzca un numero en la posicion "<<cont+1<<" del arreglo : ";
+        cin >> arreglo[cont];
+        cont++;
     }
-    i=0;
-    while(i<5)
+    cout <<endl;
+
+    for (int i;i<tam/2;i++)
     {
-        cout << "El arreglo de la posicion "<< "arreglo["<<i+1<<"] es: "<< arreglo[i] <<endl;
-        i++;
+        temp=arreglo[i];
+        arreglo[i]=arreglo[tam-1-i];
+        arreglo[tam-1-i]=temp;
     }
+    cout <<endl;
+    cont=0;
+    while (cont<tam)
+    {
+        cout << arreglo[cont] << " ";
+        cont++;
+    }
+    cout <<endl;
+
+    cont=0;
+    int temp2=0;
+    while (cont<tam)
+    {
+        temp2=temp2+arreglo[cont];
+        cont++;
+    }
+    cout<<"La suma de todos los elementos del arreglo es: "<<temp2<<endl;
+    cout <<endl;
+
+    cont=0;
+    int temp3=0;
+    while (cont<tam)
+    {
+        if(temp3<arreglo[cont])
+            temp3=arreglo[cont];
+        cont++;
+    }
+    cout<<"El numero matoy de la lista es: "<<temp3<<endl;
+
 }
-*/
-
-int main ()
-{
-    int score[6];
-    int c=5;
-    score[0]=c++;
-    score[1]=c++;
-    score[2]=c++;
-    score[3]=c++;
-    score[4]=c++;
-    score[5]=c++;
-
-    c=5;
-    cout << score[c--] << endl;
-    cout << score[c--] << endl;
-    cout << score[c--] << endl;
-    cout << score[c--] << endl;
-    cout << score[c--] << endl;
-    cout << score[c--] << endl;
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
