@@ -29,7 +29,7 @@ int invertir(int arreglo[],const int tamanho)
 
 int imprimir (int arreglo[], const int tamanho)
 {
-    cout<<"Tu arreglo es: ";
+    //cout<<"Tu arreglo es: ";
     for (int i=0;i<tamanho;i++)
     {
         cout<<arreglo[i]<<",";
@@ -37,10 +37,15 @@ int imprimir (int arreglo[], const int tamanho)
     cout<<endl;
 }
 
+int ordenar(int arreglo[],const int tamanho)
+{
+    int temp[tamanho];
+
+}
+
 int main()
 {
     int n;
-    int suma=0;
     cout<<"De que tamaño va a ser su arreglo : ";
     cin>>n;
     int arr[n];
@@ -49,10 +54,16 @@ int main()
         cout<<"Introduzca el valor de la pisicion "<<i+1<<" : ";
         cin>>arr[i];
     }
+    cout<<endl;
     cout<<"Suma :"<<suma(arr,n)<<endl;
-    promedio(arr,n);
+    cout<<endl;
+    cout<<"Promedio :"<<promedio(arr,n)<<endl;
     invertir(arr,n);
+    cout<<endl;
+    cout<<"Arreglo invertido: ";
     imprimir(arr,n);
+    cout<<endl;
+
 
 
 
