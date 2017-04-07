@@ -27,9 +27,8 @@ int invertir(int arreglo[],const int tamanho)
     }
 }
 
-int imprimir (int arreglo[], const int tamanho)
+int imprimir(int arreglo[], const int tamanho)
 {
-    //cout<<"Tu arreglo es: ";
     for (int i=0;i<tamanho;i++)
     {
         cout<<arreglo[i]<<",";
@@ -39,13 +38,35 @@ int imprimir (int arreglo[], const int tamanho)
 
 int ordenar(int arreglo[],const int tamanho)
 {
-    int temp[tamanho];
-
+    for (int i=0;i<tamanho;i++)
+    {
+        for(int j=1;j<tamanho;j++)
+        {
+            if(arreglo[j]<arreglo[i])
+            {
+                int temp;
+                temp=arreglo[j];
+                arreglo[j]=arreglo[i];
+                arreglo[i]=temp;
+            }
+        }
+    }
 }
+
+int tam(const char cadena[])
+{
+    int temp=0;
+    while(cadena[temp]!='\0')
+        temp++;
+    return temp;
+}
+
 
 int main()
 {
+
     int n;
+    char cadena[]="Escribe tu mensaje";
     cout<<"De que tamaño va a ser su arreglo : ";
     cin>>n;
     int arr[n];
@@ -54,6 +75,7 @@ int main()
         cout<<"Introduzca el valor de la pisicion "<<i+1<<" : ";
         cin>>arr[i];
     }
+    /*
     cout<<endl;
     cout<<"Suma :"<<suma(arr,n)<<endl;
     cout<<endl;
@@ -63,6 +85,12 @@ int main()
     cout<<"Arreglo invertido: ";
     imprimir(arr,n);
     cout<<endl;
+
+
+    cout<<"El tamaño de tu cadena es:  "<<tam(cadena)<<endl;
+    */
+    ordenar(arr,n);
+    imprimir(arr,n);
 
 
 
