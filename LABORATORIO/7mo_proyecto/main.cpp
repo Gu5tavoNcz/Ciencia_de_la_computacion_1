@@ -75,7 +75,7 @@ int main()
         cout<<"Introduzca el valor de la posicion "<<i+1<<" : ";
         cin>>arr[i];
     }
-    /*
+
     cout<<endl;
     cout<<"Suma :"<<suma(arr,n)<<endl;
     cout<<endl;
@@ -85,31 +85,14 @@ int main()
     cout<<"Arreglo invertido: ";
     imprimir(arr,n);
     cout<<endl;
-
-
-    cout<<"El tamaño de tu cadena es:  "<<tam(cadena)<<endl;
-    */
+    cout<<"Cadena ordenada : ";
     ordenar(arr,n);
     imprimir(arr,n);
+    cout<<endl;
+    cout<<"El tamaño de tu cadena es:  "<<tam(cadena)<<endl;
+
 
 }
 
-/*
-int ordenar(int arreglo[],const int tamanho)
-{
-    int temp;
-    for (int i=0;i<tamanho;i++)
-    {
-        for(int j=1;j<tamanho;j++)
-        {
-            if(arreglo[j]<arreglo[i])
-            {
-                //int temp;
-                temp=arreglo[j];
-                arreglo[j]=arreglo[i];
-                arreglo[i]=temp;
-            }
-        }
-    }
-}
-*/
+
+
