@@ -1,20 +1,20 @@
 #include <iostream>
 
 using namespace std;
-/*
-int llenar_matriz(int matriz[x][j])
+
+int llenar_matriz(int matriz1[x1][y1])
 {
-    for(int i=0;i<x;i++)
+    for(int i=0;i<x1;i++)
     {
-        for(int j=0;j<y;j++)
+        for(int j=0;j<y1;j++)
         {
-            cout<<"x["<<x+1<<"] y["<<y+1<<"] : ";
-            cin>>matriz[x][y];
+            cout<<"x["<<i+1<<"] y["<<j+1<<"] : ";
+            cin>>matriz1[x][y];
         }
     }
 
 }
-*/
+
 
 
 
@@ -37,14 +37,7 @@ int main()
         cout<<"Las matrices no pueden multiplicarse"<<endl;
     else
     {
-        for(int i=0;i<x1;i++)
-        {
-            for(int j=0;j<y1;j++)
-            {
-                cout<<"x["<<i+1<<"] y["<<j+1<<"] : ";
-                cin>>matriz1[x1][y1];
-            }
-        }
+        llenar_matriz(int matriz1[x1][y1]);
     }
 
 
