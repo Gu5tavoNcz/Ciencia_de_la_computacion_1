@@ -38,16 +38,16 @@ int imprimir(int arreglo[], const int tamanho)
 
 int ordenar(int arreglo[],const int tamanho)
 {
+    int temp;
     for (int i=0;i<tamanho;i++)
     {
-        for(int j=1;j<tamanho;j++)
+        for(int j=0;j<tamanho-1;j++)
         {
-            if(arreglo[j]<arreglo[i])
+            if(arreglo[j]>arreglo[j+1])
             {
-                int temp;
                 temp=arreglo[j];
-                arreglo[j]=arreglo[i];
-                arreglo[i]=temp;
+                arreglo[j]=arreglo[j+1];
+                arreglo[j+1]=temp;
             }
         }
     }
@@ -72,7 +72,7 @@ int main()
     int arr[n];
     for (int i=0;i<n;i++)
     {
-        cout<<"Introduzca el valor de la pisicion "<<i+1<<" : ";
+        cout<<"Introduzca el valor de la posicion "<<i+1<<" : ";
         cin>>arr[i];
     }
     /*
@@ -92,9 +92,24 @@ int main()
     ordenar(arr,n);
     imprimir(arr,n);
 
-
-
-
-
-
 }
+
+/*
+int ordenar(int arreglo[],const int tamanho)
+{
+    int temp;
+    for (int i=0;i<tamanho;i++)
+    {
+        for(int j=1;j<tamanho;j++)
+        {
+            if(arreglo[j]<arreglo[i])
+            {
+                //int temp;
+                temp=arreglo[j];
+                arreglo[j]=arreglo[i];
+                arreglo[i]=temp;
+            }
+        }
+    }
+}
+*/
