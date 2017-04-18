@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int intercambio(int a, int b)
+int intercambio(int &a, int &b)
 {
     int temp;
     temp=a;
@@ -15,5 +15,7 @@ int main()
     int x,y;
     x=7;
     y=10;
-    cout<<"Cambio x="<<x<<" y="<<y<<" -> "<<intercambio(x,y)<<endl;
+    cout<<"valor original x="<<x<<" y="<<y<<endl;
+    intercambio(x,y);
+    cout<<"interbambio x="<<x<<" y="<<y<<endl;
 }
