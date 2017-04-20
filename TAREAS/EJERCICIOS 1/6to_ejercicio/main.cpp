@@ -15,10 +15,11 @@ int main()
 {
     char cadena[20];
     char op1[10],op2[2];
-   
-    for (int i=0;i<20;i++)
+    int cont=0;
+    while((cin>>cadena)!='\n')
     {
-        cin>>cadena[i];
+        cin>>cadena[cont];
+        
     }
     
     if (cadena[0]='+')
