@@ -2,21 +2,19 @@
 #include <cstdlib>
 
 using namespace std;
-
 /*
 Escriba una función para calcular la potencia de dos números, dicha función debe recibir dos
 argumentos, la base y el exponente y debe retornar el resultado.
  */
-int exponente(int n,int m)
+int exponente(int base,int exp)
 {
-    int temp=n;
-    for(int i=0;i<m-1;i++)
+    int resultado=1;
+    for(int i=0;i<exp;i++)
     {
-        temp*=n;
+        resultado*=base;
     }
-    return temp;
+    return resultado;
 }
-
 
 int main()
 {
