@@ -25,4 +25,3 @@ int main()
     cin>>exp;
     cout<<"El numero "<<num<<" evelado a "<<exp<<" es : "<<exponente(num,exp)<<endl;
 }
-
