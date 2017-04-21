@@ -7,14 +7,18 @@ using namespace std;
 Reescriba el ejercicio 12 utilizando punteros en lugar de arreglos.
  */
 
-void reversa(int *punt,int *n)
+int reversa(int cadena[],int n)
 {
-    int temp;
-    for(int i=0;i<(*n/2);i++)
+    int *p1, *p2, *temp;
+    p1=cadena;
+    p2=p1+(n-1);
+    for(int i=0;i<(n/2);i++)
     {
-        temp=*punt[(n-1)-i];
-        *punt[(n-1)-i]=*punt[i];
-        *punt[i]=temp;
+        *temp=*p1;
+        *p1=*p2;
+        *p2=*temp;
+        *p1++;
+        *p2--;
     }
 }
 
