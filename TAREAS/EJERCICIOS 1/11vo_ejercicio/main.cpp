@@ -1,6 +1,9 @@
 #include <iostream>
 
 using namespace std;
+/*
+Multiplique dos matrices
+*/
 
 int llenar_matri(int mat[3][3])
 {
