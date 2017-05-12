@@ -2,6 +2,9 @@
 
 Vector::print()
 {
-    cout ....
+    start.print();
+    cout << " -> ";
+    fin.print();
+    cout << endl;
 }
 

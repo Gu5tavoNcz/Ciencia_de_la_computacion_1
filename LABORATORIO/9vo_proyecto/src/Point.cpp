@@ -2,7 +2,7 @@
 
 void Point::print()
 {
-    cout ....
+    cout << "(" << x << "," << y << ")";
 
 }
 

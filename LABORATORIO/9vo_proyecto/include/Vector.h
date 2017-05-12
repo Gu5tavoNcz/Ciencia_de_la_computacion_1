@@ -8,5 +8,3 @@ class Vector
         Point start,fin;
         void print();
 };
-
-#endif // VECTOR_H
