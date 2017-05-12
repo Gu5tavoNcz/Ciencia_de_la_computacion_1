@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Vector.h"
+#include <math.h>
 
 using namespace std;
 
@@ -11,6 +12,7 @@ int main()
     vec.fin.x = 5;
     vec.fin.y = 5;
     vec.print();
+    cout<<vec.modulo();
 
     return 0;
 }

@@ -8,6 +8,7 @@ class Vector
     public:
         Point start,fin;
         void print();
+        double modulo();
 };
 
 #endif
