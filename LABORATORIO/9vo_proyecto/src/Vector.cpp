@@ -1,6 +1,9 @@
+#include <iostream>
 #include "Vector.h"
 
-Vector::print()
+using namespace std;
+
+void Vector::print()
 {
     start.print();
     cout << " -> ";

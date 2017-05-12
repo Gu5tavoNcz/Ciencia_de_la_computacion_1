@@ -1,10 +1,18 @@
 # depslib dependency file v1.0
-1494602543 source:c:\users\alumno-g\documents\programacion\ciencia_de_la_computacion_1\laboratorio\9vo_proyecto\main.cpp
+1494605422 source:c:\users\alumno-g\documents\programacion\ciencia_de_la_computacion_1\laboratorio\9vo_proyecto\main.cpp
 	<iostream>
 	"Vector.h"
 
-1494603906 c:\users\alumno-g\documents\programacion\ciencia_de_la_computacion_1\laboratorio\9vo_proyecto\include\vector.h
+1494605599 c:\users\alumno-g\documents\programacion\ciencia_de_la_computacion_1\laboratorio\9vo_proyecto\include\vector.h
 	"Point.h"
 
-1494603982 c:\users\alumno-g\documents\programacion\ciencia_de_la_computacion_1\laboratorio\9vo_proyecto\include\point.h
+1494605222 c:\users\alumno-g\documents\programacion\ciencia_de_la_computacion_1\laboratorio\9vo_proyecto\include\point.h
+
+1494605313 source:c:\users\alumno-g\documents\programacion\ciencia_de_la_computacion_1\laboratorio\9vo_proyecto\src\point.cpp
+	<iostream>
+	"Point.h"
+
+1494605701 source:c:\users\alumno-g\documents\programacion\ciencia_de_la_computacion_1\laboratorio\9vo_proyecto\src\vector.cpp
+	<iostream>
+	"Vector.h"
 

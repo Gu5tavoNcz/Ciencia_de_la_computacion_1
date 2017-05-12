@@ -1,5 +1,6 @@
 #ifndef VECTOR_H
 #define VECTOR_H
+
 #include "Point.h"
 
 class Vector
@@ -8,3 +9,5 @@ class Vector
         Point start,fin;
         void print();
 };
+
+#endif
