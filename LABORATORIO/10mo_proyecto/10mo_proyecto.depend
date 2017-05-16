@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1494948616 source:c:\users\alumno-a\documents\programacion\ciencia_de_la_computacion_1\laboratorio\10mo_proyecto\main.cpp
+	<iostream>
+	"Complejo.h"
+
+1494948433 c:\users\alumno-a\documents\programacion\ciencia_de_la_computacion_1\laboratorio\10mo_proyecto\include\complejo.h
+
+1494947132 source:c:\users\alumno-a\documents\programacion\ciencia_de_la_computacion_1\laboratorio\10mo_proyecto\src\complejo.cpp
+	<iostream>
+	"Complejo.h"
+
