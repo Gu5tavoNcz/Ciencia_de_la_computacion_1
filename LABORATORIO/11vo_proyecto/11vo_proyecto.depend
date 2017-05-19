@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1495209932 source:c:\users\alumno-g\documents\programacion\ciencia_de_la_computacion_1\laboratorio\11vo_proyecto\main.cpp
+	<iostream>
+	"Vehiculo.h"
+	"Auto.h"
+	"Camion.h"
+
+1495209287 source:c:\users\alumno-g\documents\programacion\ciencia_de_la_computacion_1\laboratorio\11vo_proyecto\src\auto.cpp
+	"Auto.h"
+
+1495209080 c:\users\alumno-g\documents\programacion\ciencia_de_la_computacion_1\laboratorio\11vo_proyecto\include\auto.h
+	"Vehiculo.h"
+
+1495208776 c:\users\alumno-g\documents\programacion\ciencia_de_la_computacion_1\laboratorio\11vo_proyecto\include\vehiculo.h
+	<iostream>
+
+1495209298 source:c:\users\alumno-g\documents\programacion\ciencia_de_la_computacion_1\laboratorio\11vo_proyecto\src\vehiculo.cpp
+	"Vehiculo.h"
+
+1495209618 source:c:\users\alumno-g\documents\programacion\ciencia_de_la_computacion_1\laboratorio\11vo_proyecto\src\camion.cpp
+	"Camion.h"
+	"Vehiculo.h"
+
+1495209611 c:\users\alumno-g\documents\programacion\ciencia_de_la_computacion_1\laboratorio\11vo_proyecto\include\camion.h
+	"Vehiculo.h"
+
+1495210578 source:c:\users\alumno-g\documents\programacion\ciencia_de_la_computacion_1\laboratorio\11vo_proyecto\src\moto.cpp
+	"Moto.h"
+
+1495210578 c:\users\alumno-g\documents\programacion\ciencia_de_la_computacion_1\laboratorio\11vo_proyecto\include\moto.h
+	"Vehiculo.h"
+
