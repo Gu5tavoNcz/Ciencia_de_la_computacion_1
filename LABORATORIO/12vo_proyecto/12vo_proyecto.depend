@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1495553564 source:c:\users\alumno-a\documents\programacion\ciencia_de_la_computacion_1\laboratorio\12vo_proyecto\main.cpp
+	<iostream>
+	<vector>
+	"Alumno.h"
+
+1495553602 source:c:\users\alumno-a\documents\programacion\ciencia_de_la_computacion_1\laboratorio\12vo_proyecto\src\persona.cpp
+	"Persona.h"
+	<iostream>
+
+1495553642 c:\users\alumno-a\documents\programacion\ciencia_de_la_computacion_1\laboratorio\12vo_proyecto\include\persona.h
+	<iostream>
+
+1495553451 c:\users\alumno-a\documents\programacion\ciencia_de_la_computacion_1\laboratorio\12vo_proyecto\include\alumno.h
+	"Persona.h"
+	<iostream>
+
+1495553748 source:c:\users\alumno-a\documents\programacion\ciencia_de_la_computacion_1\laboratorio\12vo_proyecto\src\alumno.cpp
+	"Alumno.h"
+	<iostream>
+
