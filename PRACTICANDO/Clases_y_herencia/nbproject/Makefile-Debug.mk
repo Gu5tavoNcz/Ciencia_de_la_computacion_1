@@ -36,6 +36,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 # Object Files
 OBJECTFILES= \
 	${OBJECTDIR}/Asalariado.o \
+	${OBJECTDIR}/Obrero.o \
 	${OBJECTDIR}/Persona.o \
 	${OBJECTDIR}/main.o
 
@@ -68,6 +69,11 @@ ${OBJECTDIR}/Asalariado.o: Asalariado.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Asalariado.o Asalariado.cpp
+
+${OBJECTDIR}/Obrero.o: Obrero.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Obrero.o Obrero.cpp
 
 ${OBJECTDIR}/Persona.o: Persona.cpp 
 	${MKDIR} -p ${OBJECTDIR}

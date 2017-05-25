@@ -9,7 +9,7 @@ class Asalariado : public Persona {
         double sueldo;
     public:
         Asalariado(const string miNombre,const int miEdad,const double miSueldo);
-        void mostrar();
+        void mostrarAsalariado();
 };
 
 #endif /* ASALARIADO_H */

@@ -10,6 +10,6 @@ Persona::Persona(const string miNombre,const int miEdad) {
 void Persona::mostrarPersona()
 {
     cout<<"Nombre: "<<nombre<<endl;
-    cout<<"Edad: "<<edad<<endl;
+    cout<<"Edad: "<<edad<<"\n\n"<<endl;
 }
 
