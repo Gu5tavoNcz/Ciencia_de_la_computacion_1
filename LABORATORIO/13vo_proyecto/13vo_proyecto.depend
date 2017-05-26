@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1495815237 source:c:\users\alumno-g\documents\programacion\ciencia_de_la_computacion_1\laboratorio\13vo_proyecto\main.cpp
+	<iostream>
+	"Persona.h"
+	"Gerente.h"
+	"Conserje.h"
+
+1495815370 source:c:\users\alumno-g\documents\programacion\ciencia_de_la_computacion_1\laboratorio\13vo_proyecto\src\persona.cpp
+	"Persona.h"
+
+1495815788 c:\users\alumno-g\documents\programacion\ciencia_de_la_computacion_1\laboratorio\13vo_proyecto\include\persona.h
+	<iostream>
+
+1495815805 source:c:\users\alumno-g\documents\programacion\ciencia_de_la_computacion_1\laboratorio\13vo_proyecto\src\gerente.cpp
+	"Gerente.h"
+	<iostream>
+
+1495816207 c:\users\alumno-g\documents\programacion\ciencia_de_la_computacion_1\laboratorio\13vo_proyecto\include\gerente.h
+	"Persona.h"
+	<iostream>
+
+1495815788 source:c:\users\alumno-g\documents\programacion\ciencia_de_la_computacion_1\laboratorio\13vo_proyecto\src\conserje.cpp
+	"Conserje.h"
+
+1495814294 c:\users\alumno-g\documents\programacion\ciencia_de_la_computacion_1\laboratorio\13vo_proyecto\include\conserje.h
+	"Persona.h"
+	<iostream>
+
+1495814654 source:c:\users\alumno-g\documents\programacion\ciencia_de_la_computacion_1\laboratorio\13vo_proyecto\src\arreglopersona.cpp
+	"ArregloPersona.h"
+
+1495814676 c:\users\alumno-g\documents\programacion\ciencia_de_la_computacion_1\laboratorio\13vo_proyecto\include\arreglopersona.h
+	"Persona.h"
+	<iostream>
+
