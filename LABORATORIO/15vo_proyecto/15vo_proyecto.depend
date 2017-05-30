@@ -13,13 +13,24 @@
 	"avion_comercial.h"
 	<iostream>
 
-1496157067 c:\users\alumno-a\documents\programacion\ciencia_de_la_computacion_1\laboratorio\15vo_proyecto\include\avion_comercial.h
+1496158343 c:\users\alumno-a\documents\programacion\ciencia_de_la_computacion_1\laboratorio\15vo_proyecto\include\avion_comercial.h
+	"Avion.h"
 	<iostream>
 
 1496157203 source:c:\users\alumno-a\documents\programacion\ciencia_de_la_computacion_1\laboratorio\15vo_proyecto\src\avion_privado.cpp
 	"Avion_privado.h"
 	<iostream>
 
-1496157203 c:\users\alumno-a\documents\programacion\ciencia_de_la_computacion_1\laboratorio\15vo_proyecto\include\avion_privado.h
+1496158343 c:\users\alumno-a\documents\programacion\ciencia_de_la_computacion_1\laboratorio\15vo_proyecto\include\avion_privado.h
+	"Avion.h"
+	<iostream>
+
+1496158253 source:c:\users\alumno-a\documents\programacion\ciencia_de_la_computacion_1\laboratorio\15vo_proyecto\src\torre.cpp
+	"Torre.h"
+	<iostream>
+
+1496158343 c:\users\alumno-a\documents\programacion\ciencia_de_la_computacion_1\laboratorio\15vo_proyecto\include\torre.h
+	"Avion.h"
+	<vector>
 	<iostream>
 

@@ -1,4 +1,7 @@
 #include "Torre.h"
+#include <iostream>
+
+using namespace std;
 
 void Torre::imprimir()
 {
