@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1385316878 source:c:\users\alumno-a\documents\programacion\ciencia_de_la_computacion_1\laboratorio\15vo_proyecto\main.cpp
+	<iostream>
+
+1496157085 source:c:\users\alumno-a\documents\programacion\ciencia_de_la_computacion_1\laboratorio\15vo_proyecto\src\avion.cpp
+	"Avion.h"
+	<iostream>
+
+1496157102 c:\users\alumno-a\documents\programacion\ciencia_de_la_computacion_1\laboratorio\15vo_proyecto\include\avion.h
+	<iostream>
+
+1496157067 source:c:\users\alumno-a\documents\programacion\ciencia_de_la_computacion_1\laboratorio\15vo_proyecto\src\avion_comercial.cpp
+	"avion_comercial.h"
+	<iostream>
+
+1496157067 c:\users\alumno-a\documents\programacion\ciencia_de_la_computacion_1\laboratorio\15vo_proyecto\include\avion_comercial.h
+	<iostream>
+
+1496157203 source:c:\users\alumno-a\documents\programacion\ciencia_de_la_computacion_1\laboratorio\15vo_proyecto\src\avion_privado.cpp
+	"Avion_privado.h"
+	<iostream>
+
+1496157203 c:\users\alumno-a\documents\programacion\ciencia_de_la_computacion_1\laboratorio\15vo_proyecto\include\avion_privado.h
+	<iostream>
+
