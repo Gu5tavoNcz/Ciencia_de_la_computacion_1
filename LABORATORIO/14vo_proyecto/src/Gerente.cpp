@@ -12,7 +12,7 @@ Gerente::~Gerente()
 }
 */
 
-void Gerente::mostrarPersona()
+void Gerente::mostrar()
 {
     cout<<"Genero: "<<genero<<"\nNombre :"<<nombre<<"\nCumpleaños :"<<endl;
 }

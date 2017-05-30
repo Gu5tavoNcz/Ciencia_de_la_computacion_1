@@ -21,7 +21,7 @@ protected:
     string genero,nombre;
 public:
     Persona(string miGenero,string miNombre,Cumpleanhos miCumple);
-    virtual void mostrarPersona()=0;
+    virtual void mostrar()=0;
     //virtual void edad()=0;
 };
 

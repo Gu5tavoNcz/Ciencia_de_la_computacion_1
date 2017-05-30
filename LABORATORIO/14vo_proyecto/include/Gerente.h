@@ -12,7 +12,7 @@ protected:
     string oficina;
 public:
     Gerente(string miGenero, string miNombre,Cumpleanhos miCumple, string miOficina, int miSueldo);
-    void mostrarPersona();
+    void mostrar();
 };
 
 #endif // GERENTE_H

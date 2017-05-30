@@ -1,15 +1,15 @@
 # depslib dependency file v1.0
-1496155512 source:c:\users\alumno-a\documents\programacion\ciencia_de_la_computacion_1\laboratorio\14vo_proyecto\main.cpp
+1496156358 source:c:\users\alumno-a\documents\programacion\ciencia_de_la_computacion_1\laboratorio\14vo_proyecto\main.cpp
 	<iostream>
 	"Persona.h"
 	"Gerente.h"
 	"Conserje.h"
 	<vector>
 
-1496155742 c:\users\alumno-a\documents\programacion\ciencia_de_la_computacion_1\laboratorio\14vo_proyecto\include\persona.h
+1496156353 c:\users\alumno-a\documents\programacion\ciencia_de_la_computacion_1\laboratorio\14vo_proyecto\include\persona.h
 	<iostream>
 
-1496155734 c:\users\alumno-a\documents\programacion\ciencia_de_la_computacion_1\laboratorio\14vo_proyecto\include\gerente.h
+1496156353 c:\users\alumno-a\documents\programacion\ciencia_de_la_computacion_1\laboratorio\14vo_proyecto\include\gerente.h
 	"Persona.h"
 	<iostream>
 
@@ -20,7 +20,7 @@
 1496155120 source:c:\users\alumno-a\documents\programacion\ciencia_de_la_computacion_1\laboratorio\14vo_proyecto\src\conserje.cpp
 	"Conserje.h"
 
-1496155886 source:c:\users\alumno-a\documents\programacion\ciencia_de_la_computacion_1\laboratorio\14vo_proyecto\src\gerente.cpp
+1496156353 source:c:\users\alumno-a\documents\programacion\ciencia_de_la_computacion_1\laboratorio\14vo_proyecto\src\gerente.cpp
 	"Gerente.h"
 	<iostream>
 
