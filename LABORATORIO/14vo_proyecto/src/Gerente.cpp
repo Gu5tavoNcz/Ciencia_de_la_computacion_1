@@ -14,5 +14,5 @@ Gerente::~Gerente()
 
 void Gerente::mostrar()
 {
-    cout<<"Genero: "<<genero<<"\nNombre :"<<nombre<<"\nCumpleaños :"<<endl;
+    cout<<"Genero: "<<genero<<"\nNombre :"<<nombre<<"\nOficina : "<<oficina<<"\nSueldo: "<<sueldo<<"\n"endl;
 }
