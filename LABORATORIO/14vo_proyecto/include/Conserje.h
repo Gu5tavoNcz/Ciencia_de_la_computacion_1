@@ -13,6 +13,7 @@ protected:
     double sueldo;
 public:
     Conserje(string miGenero,string miNombre,Cumpleanhos miCumple,string miTurno,double miSueldo);
+    void mostrar();
 };
 
 #endif // CONSERJE_H
