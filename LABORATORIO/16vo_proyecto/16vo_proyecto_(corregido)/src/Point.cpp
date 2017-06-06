@@ -1,5 +1,4 @@
 #include "Point.h"
-#include "PointArray.h"
 
 Point::Point()
 {

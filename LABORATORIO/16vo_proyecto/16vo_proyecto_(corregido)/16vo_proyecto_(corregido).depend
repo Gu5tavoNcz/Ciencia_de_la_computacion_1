@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1496760974 source:c:\users\alumno-a\documents\programacion\ciencia_de_la_computacion_1\laboratorio\16vo_proyecto\16vo_proyecto_(corregido)\main.cpp
+	<iostream>
+	"Point.h"
+	"PointArray.h"
+
+1496760873 c:\users\alumno-a\documents\programacion\ciencia_de_la_computacion_1\laboratorio\16vo_proyecto\16vo_proyecto_(corregido)\include\point.h
+
+1496760873 source:c:\users\alumno-a\documents\programacion\ciencia_de_la_computacion_1\laboratorio\16vo_proyecto\16vo_proyecto_(corregido)\src\point.cpp
+	"Point.h"
+
+1496760905 source:c:\users\alumno-a\documents\programacion\ciencia_de_la_computacion_1\laboratorio\16vo_proyecto\16vo_proyecto_(corregido)\src\pointarray.cpp
+	"PointArray.h"
+
+1496761421 c:\users\alumno-a\documents\programacion\ciencia_de_la_computacion_1\laboratorio\16vo_proyecto\16vo_proyecto_(corregido)\include\pointarray.h
+	"Point.h"
+
