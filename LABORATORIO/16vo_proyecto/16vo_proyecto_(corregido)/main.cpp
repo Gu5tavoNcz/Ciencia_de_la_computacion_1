@@ -9,6 +9,7 @@ int main()
     Point punto1(2,3);
     Point punto2;
     PointArray pa1(&punto1,10);
-    cout<<punto1.getX();
-    cout<<punto2.getY();
+    cout<<pa1.getSize()<<endl;
+    cout<<punto1.getX()<<endl;
+    cout<<punto2.getY()<<endl;
 }

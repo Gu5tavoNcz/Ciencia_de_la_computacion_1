@@ -13,7 +13,11 @@ public:
     PointArray(PointArray &p);
     ~PointArray();
     int getSize();
+    void agregar(Point &p);
     void borrar();
+    void insertar(int posicion,Point &p);
+    void remover(int posicion,Point &p);
+    Point *get(int posicion);
 };
 
 #endif // POINTARRAY_H

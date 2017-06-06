@@ -48,7 +48,34 @@ int PointArray::getSize()
     return tamano;
 }
 
+void PointArray::agregar(Point &p)
+{
+    redimensionar(tamano+1);
+    puntos[tamano-1]=p;
+}
+
 void PointArray::borrar()
 {
     redimensionar(0);
+}
+
+void PointArray::insertar(int posicion,Point &p)
+{
+    redimensionar(tamano+1);
+    for(int i=tamano-1;i>posicion;i--)
+    {
+            puntos[i]=puntos[i-1];
+    }
+}
+
+void PointArray::remover(int posicion,Point &p)
+{
+    if(posicion>=0 && posicion<tamano)
+    {
+        for(int i=posicion;i<tamano-2;i++)
+        {
+            puntos[i]=puntos[i+1];
+        }
+        redimensionar(tamano-1);
+    }
 }
