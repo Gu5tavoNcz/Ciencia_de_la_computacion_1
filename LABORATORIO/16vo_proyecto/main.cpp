@@ -1,19 +1,18 @@
 #include <iostream>
 #include "Point.h"
 #include "PointArray.h"
+#include "Poligono.h"
 
 using namespace std;
 
 int main()
 {
-    Point punto1(2,3);
-    Point punto2;
-    PointArray pa1(&punto1,10);
+    Point p1(3,6),p2(2,2),p3(4,5),p4(2,3);
+    PointArray pa1;
+    pa1.agregar(p1);
+    pa1.agregar(p2);
+    pa1.agregar(p3);
+    pa1.agregar(p4);
 
-    pa1.insertar(1,punto2);
-    cout<<pa1.getSize()<<endl;
-    cout<<punto1.getX()<<endl;
-    cout<<punto2.getY()<<endl;
-    cout<<pa1.get(0);
 
 }
