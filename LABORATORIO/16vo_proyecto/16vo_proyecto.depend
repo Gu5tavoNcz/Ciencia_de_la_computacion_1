@@ -18,3 +18,12 @@
 1496760288 source:c:\users\alumno-a\documents\programacion\ciencia_de_la_computacion_1\laboratorio\16vo_proyecto\src\pointarray.cpp
 	"PointArray.h"
 
+1497021209 source:c:\users\alumno-g\documents\programacion\ciencia_de_la_computacion_1\laboratorio\16vo_proyecto\src\point.cpp
+	"Point.h"
+	"PointArray.h"
+
+1497021209 c:\users\alumno-g\documents\programacion\ciencia_de_la_computacion_1\laboratorio\16vo_proyecto\include\point.h
+
+1497021564 c:\users\alumno-g\documents\programacion\ciencia_de_la_computacion_1\laboratorio\16vo_proyecto\include\pointarray.h
+	"Point.h"
+

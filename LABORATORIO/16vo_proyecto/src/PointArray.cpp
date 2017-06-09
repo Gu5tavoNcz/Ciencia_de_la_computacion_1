@@ -1,9 +1,19 @@
 #include "PointArray.h"
+#include <iostream>
 
-PointArray::redimensionar(int miTamano)
+using namespace std;
+
+void PointArray::redimensionar(int nuevoTamano)
 {
-
+    Point *pts = new Point [ nuevoTamano ];
+    int minSize = ( nuevoTamano > tamano ? tamano : nuevoTamano );
+    for (int i = 0; i < minSize ; i++)
+        pts[i] = puntos [i];
+    delete [] puntos ;
+    tamano = nuevoTamano ;
+    puntos = pts ;
 }
+
 
 PointArray::PointArray()
 {
@@ -34,4 +44,50 @@ PointArray::PointArray(PointArray &p)
 PointArray::~PointArray()
 {
     delete[] puntos;
+}
+
+int PointArray::getSize()
+{
+    return tamano;
+}
+
+void PointArray::agregar(Point &p)
+{
+    redimensionar(tamano+1);
+    puntos[tamano-1]=p;
+}
+
+void PointArray::borrar()
+{
+    redimensionar(0);
+}
+
+void PointArray::insertar(int posicion,Point &p)
+{
+    redimensionar(tamano+1);
+    for(int i=tamano-1;i>posicion;i--)
+    {
+            puntos[i]=puntos[i-1];
+    }
+}
+
+void PointArray::remover(int posicion,Point &p)
+{
+    if(posicion>=0 && posicion<tamano)
+    {
+        for(int i=posicion;i<tamano-2;i++)
+        {
+            puntos[i]=puntos[i+1];
+        }
+        redimensionar(tamano-1);
+    }
+}
+
+Point *PointArray::get(int posicion)
+{
+    return posicion>=0 && posicion<tamano? puntos + posicion:NULL;
+}
+
+const Point *PointArray::get(int posicion) const {
+    return posicion>=0 && posicion<tamano? puntos + posicion:NULL;
 }
