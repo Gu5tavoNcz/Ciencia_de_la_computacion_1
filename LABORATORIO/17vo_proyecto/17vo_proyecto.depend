@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1497593020 source:c:\users\gustavo Ñaupa canaza\documents\programacion\ciencia_de_la_computacion_1\laboratorio\17vo_proyecto\main.cpp
+	<iostream>
+	<PointArray.h>
+	<Poligono.h>
+
+1497591827 source:c:\users\gustavo Ñaupa canaza\documents\programacion\ciencia_de_la_computacion_1\laboratorio\17vo_proyecto\src\point.cpp
+	"Point.h"
+
+1497591827 c:\users\gustavo Ñaupa canaza\documents\programacion\ciencia_de_la_computacion_1\laboratorio\17vo_proyecto\include\point.h
+
+1497591827 source:c:\users\gustavo Ñaupa canaza\documents\programacion\ciencia_de_la_computacion_1\laboratorio\17vo_proyecto\src\pointarray.cpp
+	"PointArray.h"
+	<iostream>
+
+1497591827 c:\users\gustavo Ñaupa canaza\documents\programacion\ciencia_de_la_computacion_1\laboratorio\17vo_proyecto\include\pointarray.h
+	"Point.h"
+
+1497592935 source:c:\users\gustavo Ñaupa canaza\documents\programacion\ciencia_de_la_computacion_1\laboratorio\17vo_proyecto\src\poligono.cpp
+	"Poligono.h"
+	<iostream>
+
+1497592829 c:\users\gustavo Ñaupa canaza\documents\programacion\ciencia_de_la_computacion_1\laboratorio\17vo_proyecto\include\poligono.h
+	<PointArray.h>
+	<Point.h>
+	<cmath>
+
