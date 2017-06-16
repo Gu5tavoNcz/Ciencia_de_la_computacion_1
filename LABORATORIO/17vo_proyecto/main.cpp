@@ -31,7 +31,7 @@ void aplicandoRectangulo()
 
     printAttributes(&r);
 }
-/*
+
 void aplicandoTriangulo()
 {
     int n1,m1,n2,m2,n3,m3;
@@ -47,11 +47,11 @@ void aplicandoTriangulo()
     cin>>n3;
     cout<<"M3 :";
     cin>>m3;
-    point t1(n1,m1),t2(n2,m2),t3(n3,m3);
+    Point t1(n1,m1),t2(n2,m2),t3(n3,m3);
     Triangle t(t1,t2,t3);
     printAttributes(&t);
 }
-*/
+
 template < class T> class Stack ;
 
 template < class T>
