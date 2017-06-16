@@ -1,10 +1,10 @@
-#ifndef GRAPH_H
+//#ifndef GRAPH_H
 #define GRAPH_H
 #include <iostream>
 #include <vector>
 
 using namespace std;
-
+/*
 class Graph
 {
     protected:
@@ -17,3 +17,4 @@ class Graph
 
 
 #endif // GRAPH_H
+*/

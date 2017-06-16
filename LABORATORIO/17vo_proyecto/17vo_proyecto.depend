@@ -25,3 +25,37 @@
 	<Point.h>
 	<cmath>
 
+1497626626 source:c:\users\alumno-g\documents\programacion\ciencia_de_la_computacion_1\laboratorio\17vo_proyecto\main.cpp
+	<iostream>
+	<PointArray.h>
+	<Poligono.h>
+
+1497626626 c:\users\alumno-g\documents\programacion\ciencia_de_la_computacion_1\laboratorio\17vo_proyecto\include\pointarray.h
+	"Point.h"
+
+1497626626 c:\users\alumno-g\documents\programacion\ciencia_de_la_computacion_1\laboratorio\17vo_proyecto\include\point.h
+
+1497626626 c:\users\alumno-g\documents\programacion\ciencia_de_la_computacion_1\laboratorio\17vo_proyecto\include\poligono.h
+	<PointArray.h>
+	<Point.h>
+	<cmath>
+
+1497626626 source:c:\users\alumno-g\documents\programacion\ciencia_de_la_computacion_1\laboratorio\17vo_proyecto\src\point.cpp
+	"Point.h"
+
+1497626626 source:c:\users\alumno-g\documents\programacion\ciencia_de_la_computacion_1\laboratorio\17vo_proyecto\src\pointarray.cpp
+	"PointArray.h"
+	<iostream>
+
+1497626626 source:c:\users\alumno-g\documents\programacion\ciencia_de_la_computacion_1\laboratorio\17vo_proyecto\src\poligono.cpp
+	"Poligono.h"
+	<iostream>
+
+1497626968 source:c:\users\alumno-g\documents\programacion\ciencia_de_la_computacion_1\laboratorio\17vo_proyecto\src\graph.cpp
+	"Graph.h"
+	<stdexcept>
+
+1497626977 c:\users\alumno-g\documents\programacion\ciencia_de_la_computacion_1\laboratorio\17vo_proyecto\include\graph.h
+	<iostream>
+	<vector>
+
