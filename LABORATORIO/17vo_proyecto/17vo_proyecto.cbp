@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="include" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -22,6 +23,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -32,7 +34,15 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/Graph.h" />
+		<Unit filename="include/Point.h" />
+		<Unit filename="include/PointArray.h" />
+		<Unit filename="include/Poligono.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Graph.cpp" />
+		<Unit filename="src/Point.cpp" />
+		<Unit filename="src/PointArray.cpp" />
+		<Unit filename="src/Poligono.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
