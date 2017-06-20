@@ -65,6 +65,27 @@ Stack <T> operator +( const Stack <T> &s1,const Stack <T> &s2)
 
     return result ;
 }
+/*
+template <class T>
+Stack <T> operator -(const Stack <T> &s1,const Stack <T> &s2)
+{
+    Stack <T> result = s1;
+    for(unsigned i=0;i<s1.items.size();++i)
+    {
+        result.items.pop_back(s2.items [i]);
+    }
+    vector <T> items ;
+    public :
+        bool empty () const { return items.empty () ;}
+        void pop ( const T & item ) { items.pop_back(item);}
+        T pop ()
+        {
+            T last=items.back();
+            items.pop_back ();
+            return last ;
+        }
+}
+*/
 
 template < class T>
 class Stack
@@ -110,7 +131,15 @@ int main(){
     p1.push(6);
     p1.push(9);
 
-    cout<<p1;
+    Stack<int> p2;
+    p2.push(2);
+    p2.push(3);
+    p2.push(98);
+    p2.push(5);
+
+    Stack<int> p3=p1+p2;
+
+    cout<<p3;
 
     return 0;
 }
