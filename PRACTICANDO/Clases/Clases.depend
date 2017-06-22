@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1498143041 source:c:\users\gustavo nc\documents\programacion\ciencia_de_la_computacion_1\practicando\clases\main.cpp
+	<iostream>
+	"MEstudiante.h"
+	"Vector.h"
+
+1498140541 c:\users\gustavo nc\documents\programacion\ciencia_de_la_computacion_1\practicando\clases\include\mestudiante.h
+
+1498140192 source:c:\users\gustavo nc\documents\programacion\ciencia_de_la_computacion_1\practicando\clases\src\mestudiante.cpp
+	"MEstudiante.h"
+
+1498140192 source:c:\users\gustavo nc\documents\programacion\ciencia_de_la_computacion_1\practicando\clases\src\vector.cpp
+	"Vector.h"
+
+1498143473 c:\users\gustavo nc\documents\programacion\ciencia_de_la_computacion_1\practicando\clases\include\vector.h
+	<iostream>
+	"Point.h"
+
+1498142073 c:\users\gustavo nc\documents\programacion\ciencia_de_la_computacion_1\practicando\clases\include\point.h
+
+1498141982 source:c:\users\gustavo nc\documents\programacion\ciencia_de_la_computacion_1\practicando\clases\src\point.cpp
+	"Point.h"
+
