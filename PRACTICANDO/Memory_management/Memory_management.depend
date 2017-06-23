@@ -1,11 +1,11 @@
 # depslib dependency file v1.0
-1498178636 source:c:\users\gustavo nc\documents\programacion\ciencia_de_la_computacion_1\practicando\memory_management\main.cpp
+1498179439 source:c:\users\gustavo nc\documents\programacion\ciencia_de_la_computacion_1\practicando\memory_management\main.cpp
 	<iostream>
 	"Entero.h"
 
-1498171273 source:c:\users\gustavo nc\documents\programacion\ciencia_de_la_computacion_1\practicando\memory_management\src\entero.cpp
+1498179433 source:c:\users\gustavo nc\documents\programacion\ciencia_de_la_computacion_1\practicando\memory_management\src\entero.cpp
 	"Entero.h"
 
-1498179243 c:\users\gustavo nc\documents\programacion\ciencia_de_la_computacion_1\practicando\memory_management\include\entero.h
+1498179433 c:\users\gustavo nc\documents\programacion\ciencia_de_la_computacion_1\practicando\memory_management\include\entero.h
 	<iostream>
 
