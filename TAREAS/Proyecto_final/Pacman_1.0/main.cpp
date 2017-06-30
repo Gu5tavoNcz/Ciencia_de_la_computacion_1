@@ -1,5 +1,6 @@
 #include <iostream>
 #include <allegro.h>
+#include "Pacman.h"
 
 using namespace std;
 
@@ -8,9 +9,17 @@ using namespace std;
 BITMAP *buffer;
 BITMAP *roca;
 BITMAP *muro_o,*muro_v,*muro_ai,*muro_ad,*muro_bi,*muro_bd,*muro_a,*muro_b,*muro_i,*muro_d;
-BITMAP *pacman_imagen,*pacman;
+
 
 int direccion=0,x=20*10,y=20*10;
+
+void funciones_allegro()
+{
+    allegro_init();
+    install_keyboard();
+    set_color_depth(32);
+    set_gfx_mode(GFX_AUTODETECT_WINDOWED,1000,600,0,0);
+}
 
 char mapa[MAXFILAS][MAXCOLUMNAS]={
     "(----------------------)  (----------------------)",
@@ -111,50 +120,28 @@ void pantalla()
     blit(buffer,screen,0,0,0,0,1000,600);
 }
 
-void dibujar_pacman()
-{
-    blit(pacman_imagen,pacman,direccion*20,0,0,0,20,20);//cual imagen,desde donde,dimencion
-    draw_sprite(buffer,pacman,x,y);
-}
 
 int main()
 {
-    allegro_init();
-    install_keyboard();
-
-    set_color_depth(16);
-    set_gfx_mode(GFX_AUTODETECT_WINDOWED,1000,600,0,0);
+    funciones_allegro();
     buffer=create_bitmap(1000,600);
     muro();
-    pacman_imagen=load_bitmap("pacman.bmp",NULL);
-    pacman=create_bitmap(20,20);
+    Pacman gustavo;
+
     while(!key[KEY_ESC])
     {
-        if(key[KEY_RIGHT]) direccion=1;
-        else if(key[KEY_LEFT]) direccion=0;
+
+        if(key[KEY_LEFT]) direccion=0;
+        else if(key[KEY_RIGHT]) direccion=1;
         else if(key[KEY_UP]) direccion=2;
         else if(key[KEY_DOWN]) direccion=3;
-
         if(direccion==0) x-=20;
         if(direccion==1) x+=20;
         if(direccion==2) y-=20;
         if(direccion==3) y+=20;
-/*
-        switch(direccion)
-        {
-        case 0:
-            x-=30;
-        case 1:
-            x+=30;
-        case 2:
-            y-=30;
-        case 3:
-            y+=30;
-        }
-*/
         clear(buffer);
         dibujar_mapa();
-        dibujar_pacman();
+        gustavo.dibujar_pacman(direccion,x,y,buffer);
         pantalla();
         rest(150);
     }

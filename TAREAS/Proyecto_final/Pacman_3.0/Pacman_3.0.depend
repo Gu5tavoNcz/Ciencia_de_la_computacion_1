@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1498669419 source:c:\users\gustavo nc\desktop\pacman_3.0\main.cpp
+	<iostream>
+	<allegro.h>
+	"Pacman.h"
+
+1498663541 c:\users\gustavo nc\desktop\pacman_3.0\include\pacman.h
+	<iostream>
+	<allegro.h>
+
+1498663541 source:c:\users\gustavo nc\desktop\pacman_3.0\src\pacman.cpp
+	"Pacman.h"
+

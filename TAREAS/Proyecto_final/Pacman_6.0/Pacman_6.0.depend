@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1498783221 source:c:\users\gustavo nc\desktop\pacman_6.0\main.cpp
+	<iostream>
+	<allegro.h>
+	"Personaje.h"
+	"mapa.h"
+
+1498783213 c:\users\gustavo nc\desktop\pacman_6.0\include\personaje.h
+	<allegro.h>
+	<iostream>
+
+1498781529 c:\users\gustavo nc\desktop\pacman_6.0\include\mapa.h
+
+1498783238 source:c:\users\gustavo nc\desktop\pacman_6.0\src\personaje.cpp
+	"Personaje.h"
+

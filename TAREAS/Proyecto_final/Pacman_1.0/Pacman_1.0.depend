@@ -7,3 +7,15 @@
 	<iostream>
 	<allegro.h>
 
+1498268332 source:c:\users\gustavo nc\desktop\pacman_1.0\main.cpp
+	<iostream>
+	<allegro.h>
+	"Pacman.h"
+
+1498268133 source:c:\users\gustavo nc\desktop\pacman_1.0\src\pacman.cpp
+	"Pacman.h"
+
+1498268143 c:\users\gustavo nc\desktop\pacman_1.0\include\pacman.h
+	<iostream>
+	<allegro.h>
+
