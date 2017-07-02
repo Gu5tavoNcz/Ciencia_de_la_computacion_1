@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1499015920 source:c:\users\gustavo Ñaupa canaza\documents\programacion\offline\pacman_vers_2.1\main.cpp
+	<iostream>
+	<allegro.h>
+	"Personaje.h"
+	"mapa.h"
+	<vector>
+
+1499015188 c:\users\gustavo Ñaupa canaza\documents\programacion\offline\pacman_vers_2.1\include\personaje.h
+
+1499015857 c:\users\gustavo Ñaupa canaza\documents\programacion\offline\pacman_vers_2.1\include\mapa.h
+	<allegro.h>
+	<iostream>
+
+1499014356 source:c:\users\gustavo Ñaupa canaza\documents\programacion\offline\pacman_vers_2.1\src\personaje.cpp
+	"Personaje.h"
+
