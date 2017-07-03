@@ -13,10 +13,12 @@ BITMAP *roca;
 BITMAP *muro_o,*muro_v,*muro_ai,*muro_ad,*muro_bi,*muro_bd,*muro_a,*muro_b,*muro_i,*muro_d,*t_a,*t_i,*t_d,*t_b;
 BITMAP *a,*b,*c,*d,*e,*f,*g,*h,*I,*J,*k,*l,*m,*n,*o,*p,*q,*r,*s,*t,*u,*v,*w,*x,*y,*z;
 BITMAP *uno,*dos,*tres,*cuatro,*cinco,*seis,*siete,*ocho,*nueve,*cero;
-BITMAP *comida,*vida;
+BITMAP *comida,*comida2,*vida;
 
 int ti=30;
-
+int _x=21*30;
+int _y=25*30;
+int puntaje=0;
 /*
 void strcatint(char *s,int *t,int n)
 {
@@ -33,7 +35,7 @@ void strcatint(char *s,int *t,int n)
 char mapa[MAXFILAS][MAXCOLUMNAS]={
     "               puntaje  012345678901234567",
     " (--------------------------------------) ",
-    " |......................................| ",
+    " |@....................................@| ",
     " |.(-).<---!-->.A.<---->.A.<--!--->.(-).| ",
     " |.[-].....|....|........|....|.....[-].| ",
     " |.....(->.%-->.|.A.().A.|.<--$.<-).....| ",
@@ -42,13 +44,13 @@ char mapa[MAXFILAS][MAXCOLUMNAS]={
     " |.%--->.|....B.B.[----].B.B....|.<---$.| ",
     " |.|.....B.()................().B.....|.| ",
     " |.B.<->...|[--).<------>.(--]|...<->.B.| ",
-    " |.......A.|...B..........B...|.A.......| ",
+    " |@......A.|...B..........B...|.A......@| ",
     " [----->.|.|.A...XXX  XXX...A.|.|.<-----] ",
     " ........|.%-].A.X      X.A.[-$.|........ ",
     " --------$.|...|.X      X.|...|.%-------- ",
     " ........|.|.A.|.X      X.|.A.|.|........ ",
     " (----->.B.[-].B.XXXXXXXX.B.[-].B.<-----) ",
-    " |......................................| ",
+    " |@....................................@| ",
     " |.(--->.A.(-).<---------->.(-).A.<---).| ",
     " |.|.....|.|.|..............|.|.|.....|.| ",
     " |.|.(---].B.[->.A.<-->.A.<-].B.[---).|.| ",
@@ -58,7 +60,7 @@ char mapa[MAXFILAS][MAXCOLUMNAS]={
     " |.(-).|.A...A.(------>.<-).A...A.|.(-).| ",
     " |.| |.|.|.<-$.|..........|.%->.|.|.| |.| ",
     " |.[-].B.B...B.[->.<------].B...B.B.[-].| ",
-    " |.........A..................A.........| ",
+    " |@........A..................A........@| ",
     " [---------¡------------------¡---------] ",
     " vidas                                    ",
 
@@ -113,6 +115,17 @@ void dibujar_mapa()
                 break;
             case '.':
                 draw_sprite(buffer,comida,j*ti,i*ti);
+                if(_y/ti==i && _x/ti == j){
+                        mapa[i][j]=' ';
+                        puntaje+=5;
+                }
+                break;
+            case '@':
+                draw_sprite(buffer,comida2,j*ti,i*ti);
+                if(_y/ti==i && _x/ti == j){
+                        mapa[i][j]=' ';
+                        puntaje+=5;
+                }
                 break;
             case '$':
                 draw_sprite(buffer,t_i,j*ti,i*ti);
@@ -126,9 +139,6 @@ void dibujar_mapa()
             case '!':
                 draw_sprite(buffer,t_b,j*ti,i*ti);
                 break;
-                //if(y/ti==i && x/ti == j){
-                       // mapa[i][j]=' ';
-                //}
             case 'a':
                 draw_sprite(buffer,a,j*ti,i*ti);
                 break;
@@ -260,6 +270,7 @@ void cargando_imagenes()
     muro_d=load_bitmap("muro_d.bmp",NULL);
     roca=load_bitmap("roca_20.bmp",NULL);
     comida=load_bitmap("comida.bmp",NULL);
+    comida2=load_bitmap("comida2.bmp",NULL);
     vida=load_bitmap("vida.bmp",NULL);
     t_a=load_bitmap("t_a.bmp",NULL);
     t_i=load_bitmap("t_i.bmp",NULL);
