@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1499326090 source:c:\users\gustavo Ñaupa canaza\documents\programacion\offline\pacman_version_3\main.cpp
+	<iostream>
+	<allegro.h>
+	"Fantasma.h"
+	"Personaje.h"
+	"mapa.h"
+	<vector>
+
+1499320638 c:\users\gustavo Ñaupa canaza\documents\programacion\offline\pacman_version_3\include\fantasma.h
+	"Personaje.h"
+
+1499325252 c:\users\gustavo Ñaupa canaza\documents\programacion\offline\pacman_version_3\include\personaje.h
+	<allegro.h>
+
+1499326148 c:\users\gustavo Ñaupa canaza\documents\programacion\offline\pacman_version_3\include\mapa.h
+	<allegro.h>
+	<iostream>
+
+1499325273 source:c:\users\gustavo Ñaupa canaza\documents\programacion\offline\pacman_version_3\src\personaje.cpp
+	"Personaje.h"
+
+1499322013 source:c:\users\gustavo Ñaupa canaza\documents\programacion\offline\pacman_version_3\src\fantasma.cpp
+	"Fantasma.h"
+
