@@ -1,7 +1,7 @@
 #include "Fantasma.h"
 
 Fantasma::Fantasma(int mi_x,int mi_y,BITMAP* mi_buffer):Personaje(mi_x,mi_y,mi_buffer)
-{
+{   direccion=2;
     personaje=create_bitmap(30,30);
 }
 
@@ -9,7 +9,7 @@ void Fantasma::actualizar_x_y(int mi_x,int mi_y,int mi_direccion)
 {
     x=mi_x;
     y=mi_y;
-    direccion=mi_direccion;
+    direccion=2;
 }
 
 void Fantasma::dibujar_personaje()
@@ -59,28 +59,26 @@ void F_rojo::dibujar_personaje()
 
 void F_rojo::mover_personaje(char mapa[][43])
 {
-    int d_anterior;
-    direccion=rand()%4;
-    d_anterior=direccion;
+
     if(direccion==0)
     {
         if(mapa[y/30][(x-30)/30]==' ' || mapa[y/30][(x-30)/30]=='.' || mapa[y/30][(x-30)/30]=='@') x-=30;
-        else direccion=d_anterior;
+        else direccion=rand()%4;
     }
     if(direccion==1)
     {
         if(mapa[y/30][(x+30)/30]==' ' || mapa[y/30][(x+30)/30]=='.' || mapa[y/30][(x-30)/30]=='@') x+=30;
-        else direccion=d_anterior;
+        else direccion=rand()%4;
     }
     if(direccion==2)
     {
         if(mapa[(y-30)/30][x/30]==' ' || mapa[(y-30)/30][x/30]=='.' || mapa[y/30][(x-30)/30]=='@') y-=30;
-        else direccion=d_anterior;
+        else direccion=rand()%4;
     }
     if(direccion==3)
     {
         if(mapa[(y+30)/30][x/30]==' ' || mapa[(y+30)/30][x/30]=='.' || mapa[y/30][(x-30)/30]=='@') y+=30;
-        else direccion=d_anterior;
+        else direccion=rand()%4;
     }
 }
 
@@ -108,28 +106,26 @@ void F_naranja::dibujar_personaje()
 
 void F_naranja::mover_personaje(char mapa[][43])
 {
-    int d_anterior;
-    direccion=rand()%4;
-    d_anterior=direccion;
+
     if(direccion==0)
     {
         if(mapa[y/30][(x-30)/30]==' ' || mapa[y/30][(x-30)/30]=='.' || mapa[y/30][(x-30)/30]=='@') x-=30;
-        else direccion=d_anterior;
+        else direccion=rand()%4;;
     }
     if(direccion==1)
     {
         if(mapa[y/30][(x+30)/30]==' ' || mapa[y/30][(x+30)/30]=='.' || mapa[y/30][(x-30)/30]=='@') x+=30;
-        else direccion=d_anterior;
+        else direccion=rand()%4;;
     }
     if(direccion==2)
     {
         if(mapa[(y-30)/30][x/30]==' ' || mapa[(y-30)/30][x/30]=='.' || mapa[y/30][(x-30)/30]=='@') y-=30;
-        else direccion=d_anterior;
+        else direccion=rand()%4;;
     }
     if(direccion==3)
     {
         if(mapa[(y+30)/30][x/30]==' ' || mapa[(y+30)/30][x/30]=='.' || mapa[y/30][(x-30)/30]=='@') y+=30;
-        else direccion=d_anterior;
+        else direccion=rand()%4;;
     }
 }
 
@@ -157,28 +153,25 @@ void F_celeste::dibujar_personaje()
 
 void F_celeste::mover_personaje(char mapa[][43])
 {
-    int d_anterior;
-    direccion=rand()%4;
-    d_anterior=direccion;
     if(direccion==0)
     {
         if(mapa[y/30][(x-30)/30]==' ' || mapa[y/30][(x-30)/30]=='.' || mapa[y/30][(x-30)/30]=='@') x-=30;
-        else direccion=d_anterior;
+        else direccion=rand()%4;;
     }
     if(direccion==1)
     {
         if(mapa[y/30][(x+30)/30]==' ' || mapa[y/30][(x+30)/30]=='.' || mapa[y/30][(x-30)/30]=='@') x+=30;
-        else direccion=d_anterior;
+        else direccion=rand()%4;;
     }
     if(direccion==2)
     {
         if(mapa[(y-30)/30][x/30]==' ' || mapa[(y-30)/30][x/30]=='.' || mapa[y/30][(x-30)/30]=='@') y-=30;
-        else direccion=d_anterior;
+        else direccion=rand()%4;;
     }
     if(direccion==3)
     {
         if(mapa[(y+30)/30][x/30]==' ' || mapa[(y+30)/30][x/30]=='.' || mapa[y/30][(x-30)/30]=='@') y+=30;
-        else direccion=d_anterior;
+        else direccion=rand()%4;;
     }
 }
 
@@ -206,28 +199,25 @@ void F_rosa::dibujar_personaje()
 
 void F_rosa::mover_personaje(char mapa[][43])
 {
-    int d_anterior;
-    direccion=rand()%4;
-    d_anterior=direccion;
     if(direccion==0)
     {
         if(mapa[y/30][(x-30)/30]==' ' || mapa[y/30][(x-30)/30]=='.' || mapa[y/30][(x-30)/30]=='@') x-=30;
-        else direccion=d_anterior;
+        else direccion=rand()%4;;
     }
     if(direccion==1)
     {
         if(mapa[y/30][(x+30)/30]==' ' || mapa[y/30][(x+30)/30]=='.' || mapa[y/30][(x-30)/30]=='@') x+=30;
-        else direccion=d_anterior;
+        else direccion=rand()%4;;
     }
     if(direccion==2)
     {
         if(mapa[(y-30)/30][x/30]==' ' || mapa[(y-30)/30][x/30]=='.' || mapa[y/30][(x-30)/30]=='@') y-=30;
-        else direccion=d_anterior;
+        else direccion=rand()%4;;
     }
     if(direccion==3)
     {
         if(mapa[(y+30)/30][x/30]==' ' || mapa[(y+30)/30][x/30]=='.' || mapa[y/30][(x-30)/30]=='@') y+=30;
-        else direccion=d_anterior;
+        else direccion=rand()%4;;
     }
 }
 

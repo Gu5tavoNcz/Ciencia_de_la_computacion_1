@@ -23,3 +23,29 @@
 1499322013 source:c:\users\gustavo Ñaupa canaza\documents\programacion\offline\pacman_version_3\src\fantasma.cpp
 	"Fantasma.h"
 
+1499378098 source:c:\users\gustavo nc\documents\programacion\github\ciencia_de_la_computacion_1\tareas\proyecto_final\pacman_version_3\main.cpp
+	<iostream>
+	<allegro.h>
+	<stdio.h>
+	<sstream>
+	"Fantasma.h"
+	"Personaje.h"
+	"mapa.h"
+	<vector>
+
+1499374384 c:\users\gustavo nc\documents\programacion\github\ciencia_de_la_computacion_1\tareas\proyecto_final\pacman_version_3\include\fantasma.h
+	"Personaje.h"
+
+1499374384 c:\users\gustavo nc\documents\programacion\github\ciencia_de_la_computacion_1\tareas\proyecto_final\pacman_version_3\include\personaje.h
+	<allegro.h>
+
+1499376391 c:\users\gustavo nc\documents\programacion\github\ciencia_de_la_computacion_1\tareas\proyecto_final\pacman_version_3\include\mapa.h
+	<allegro.h>
+	<iostream>
+
+1499375828 source:c:\users\gustavo nc\documents\programacion\github\ciencia_de_la_computacion_1\tareas\proyecto_final\pacman_version_3\src\fantasma.cpp
+	"Fantasma.h"
+
+1499374384 source:c:\users\gustavo nc\documents\programacion\github\ciencia_de_la_computacion_1\tareas\proyecto_final\pacman_version_3\src\personaje.cpp
+	"Personaje.h"
+

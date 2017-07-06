@@ -1,5 +1,7 @@
 #include <iostream>
 #include <allegro.h>
+#include <stdio.h>
+#include <sstream>
 #include "Fantasma.h"
 #include "Personaje.h"
 #include "mapa.h"
@@ -65,6 +67,17 @@ P atajos(P &px)
 
 }
 
+//template <class T>
+string getstring(int punt)
+{
+    std::stringstream ss;
+
+	ss << punt;
+	string nn;
+	nn=ss.str();
+	return nn;
+}
+
 
 int main()
 {
@@ -84,8 +97,8 @@ int main()
     F_naranja naranja1(21*30,13*30,buffer);
     F_celeste celeste1(20*30,14*30,buffer);
     F_rosa rosa1(21*30,14*30,buffer);
-    F_rojo rojo2(19*30,13*30,buffer);
-    F_naranja naranja2(19*30,14*30,buffer);
+    F_rojo rojo2(20*30,13*30,buffer);
+    F_naranja naranja2(20*30,14*30,buffer);
     F_celeste celeste2(20*30,13*30,buffer);
     F_rosa rosa2(20*30,13*30,buffer);
     Personajes.push_back(&jugador);
@@ -141,6 +154,7 @@ int main()
             strcatn(mapa[0],nombre,1);
             strcatn(mapa[29],"buen juego",28);
             strcatn(mapa[29],life,8);
+            strcatn(mapa[0],"237634",24);
             jugador.actualizar_x_y(_x,_y,direccion);
             for(int i=0;i<Personajes.size();i++)
             {
